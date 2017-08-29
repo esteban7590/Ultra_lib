@@ -1,7 +1,7 @@
 
 #include "ultra.h"
 
-ultra::ultra(int echo, int trigger)
+ultra::ultra(int trigger, int echo)
 {
    pinMode(trigger, OUTPUT);
    _trigger = trigger;
